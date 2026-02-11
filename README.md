@@ -1,0 +1,2 @@
+# Arquivos-do-curso-de-An-lise-e-Desenvolvimento-de-Sistemas-do-IFPI-Turma-2026.1
+☝️
