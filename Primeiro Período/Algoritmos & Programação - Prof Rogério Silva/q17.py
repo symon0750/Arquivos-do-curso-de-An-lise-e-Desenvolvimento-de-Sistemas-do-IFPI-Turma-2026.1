@@ -1,0 +1,5 @@
+# 17. Leia o valor da base e altura de um retângulo, calcule e escreva sua área. (área = base * altura)
+ba = float(input("Digite o valor da base do retângulo: "))
+al = float(input("Digite o valor da altura do retângulo: "))
+ar = (ba * al)
+print(f"O valor da área do retângulo é {ar:.2f}") 
