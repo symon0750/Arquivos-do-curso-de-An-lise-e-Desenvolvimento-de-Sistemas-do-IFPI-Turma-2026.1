@@ -26,7 +26,7 @@ def maiormd(n1, n2, n3, n4, n5):
 
         return nums
     
-    return "Parâmetros/tipos errados, seu bananão."
+    return "Parâmetros/tipos errados, bananão."
 
 
 def main():
@@ -40,7 +40,7 @@ def main():
         else:
             print(f"Ih... bananão: {res}")
     except ValueError:
-        print("Só são permitidos números inteiros seu bananão")
+        print("Só são permitidos números inteiros, bananão")
 
 if __name__ == "__main__":
     main()
