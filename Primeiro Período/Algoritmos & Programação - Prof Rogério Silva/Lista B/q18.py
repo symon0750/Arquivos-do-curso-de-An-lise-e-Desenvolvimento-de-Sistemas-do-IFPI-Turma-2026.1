@@ -9,7 +9,7 @@ def valida(msg, mi=None, mx=None):
 
     while True:
         try:
-            val = int(input(msg))
+            val = float(input(msg))
             if mi is not None and mx is not None:
                 if mi <= val <= mx:
                     return val
@@ -17,14 +17,6 @@ def valida(msg, mi=None, mx=None):
                     print("Digite valores nos intervalos especificados.")
             else:
                 return val
-        except ValueError:
-            print("Parâmetros errados, bananão.")
-
-def validaN(msg):
-
-    while True:
-        try:
-            return float(input(msg))
         except ValueError:
             print("Parâmetros errados, bananão.")
 
